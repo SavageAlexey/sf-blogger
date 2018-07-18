@@ -1,6 +1,5 @@
 {% extends 'BloggerBlogBundle::layout.html.twig' %}
 
-
 {% block title %}Contact{% endblock%}
 
 {% block body %}
@@ -9,4 +8,17 @@
     </header>
 
     <p>Want to contact symblog?</p>
+
+    {{ form_start(form, { 'action': path('blogger_blog_contact'), 'method': 'POST', 'attr': {'class': 'blogger'} }) }}
+    {{ form_errors(form) }}
+
+    {{ form_row(form.name) }}
+    {{ form_row(form.email) }}
+    {{ form_row(form.subject) }}
+    {{ form_row(form.body) }}
+
+    {{ form_rest(form) }}
+
+    <input type="submit" value="Submit" />
+
 {% endblock %}
