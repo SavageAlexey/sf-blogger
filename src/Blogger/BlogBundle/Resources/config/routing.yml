@@ -1,3 +1,3 @@
 blogger_blog_homepage:
-    path:     /
+    path:     /blogger
     defaults: { _controller: BloggerBlogBundle:Default:index }
