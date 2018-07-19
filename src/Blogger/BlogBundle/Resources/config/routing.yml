@@ -14,4 +14,4 @@ blogger_blog_contact:
     path: /blogger/contact
     defaults: { _controller: "BloggerBlogBundle:Page:contact"}
     requirements:
-        methods: GET
+        methods: GET|POST
