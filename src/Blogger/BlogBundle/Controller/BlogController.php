@@ -1,6 +1,6 @@
 <?php
 
-namespace Blogger\blogBundle\Controller;
+namespace Blogger\BlogBundle\Controller;
 
 use Symfony\Bundle\FrameworkBundle\Controller\Controller;
 
