@@ -1,23 +1,23 @@
 blogger_blog_homepage:
-    path:     /blogger
+    path:     /
     defaults: { _controller: BloggerBlogBundle:Page:index }
     requirements:
          methods:  GET
 
 blogger_blog_about:
-    path:   /blogger/about
+    path:   /about
     defaults: { _controller: "BloggerBlogBundle:Page:about" }
     requirements:
          methods:  GET
 
 blogger_blog_contact:
-    path: /blogger/contact
+    path: /contact
     defaults: { _controller: "BloggerBlogBundle:Page:contact" }
     requirements:
         methods: GET|POST
 
 blogger_blog_show:
-    path: /blogger/show/{id}
+    path: /show/{id}
     defaults: { _controller: "BloggerBlogBundle:Blog:show" }
     requirements:
         methods: GET
