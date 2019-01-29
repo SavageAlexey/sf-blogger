@@ -4,11 +4,17 @@ namespace Blogger\BlogBundle\Controller;
 
 use Symfony\Bundle\FrameworkBundle\Controller\Controller;
 
+/**
+ * Class BlogController
+ * @package Blogger\BlogBundle\Controller
+ */
 class BlogController extends Controller
 {
     /**
      * Show a blog entry
-     * @id int
+     * @param $id int
+     *
+     * @return mixed
      */
     public function showAction($id)
     {
