@@ -280,4 +280,9 @@ class Blog
     {
         return $this->comments;
     }
+
+    public function __toString()
+    {
+        return $this->getTitle();
+    }
 }

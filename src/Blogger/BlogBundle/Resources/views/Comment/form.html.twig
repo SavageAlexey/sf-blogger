@@ -1,0 +1,6 @@
+{{ form_start(form, { 'action': path('blogger_comment_create' , { 'blog_id' : comment.blog.id }), 'method': 'POST', 'attr': {'class': 'blogger'} }) }}
+
+    {{ form_widget(form) }}
+<p>
+    <input type="submit" value="Submit">
+</p>
