@@ -13,10 +13,11 @@ class BlogController extends Controller
     /**
      * Show a blog entry
      * @param $id int
+     * @param $slug string
      *
      * @return mixed
      */
-    public function showAction($id)
+    public function showAction($id, $slug)
     {
         $em = $this->getDoctrine()->getManager();
 

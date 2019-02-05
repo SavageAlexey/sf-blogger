@@ -17,7 +17,7 @@ blogger_blog_contact:
         methods: GET|POST
 
 blogger_blog_show:
-    path: /show/{id}
+    path: /show/{id}/{slug}
     defaults: { _controller: "BloggerBlogBundle:Blog:show" }
     requirements:
         methods: GET
