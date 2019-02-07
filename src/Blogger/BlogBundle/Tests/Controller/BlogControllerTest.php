@@ -10,7 +10,7 @@ class BlogControllerTest extends WebTestCase
     {
         $client = static::createClient();
 
-        $crawler = $client->request('GET', '/1/a-day-with-symfony');
+        $crawler = $client->request('GET', '/blogger/show/16/a-day-with-symfony');
 
         $this->assertEquals(1, $crawler->filter('h2:contains("A day with Symfony2")')->count());
 
