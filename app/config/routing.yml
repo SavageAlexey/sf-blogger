@@ -1,7 +1,3 @@
-blogger_blog:
-    resource: "@BloggerBlogBundle/Resources/config/routing.yml"
-    prefix:   /blogger
-
 app:
     resource: '@AppBundle/Controller/'
     type: annotation
