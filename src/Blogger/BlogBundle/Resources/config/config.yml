@@ -2,3 +2,4 @@ parameters:
     # Blogger max latest comments
     blogger_blog.comments.latest_comment_limit: 10
     addl_param: aaassdd
+    addl1_param: testaddlparam
